@@ -19,7 +19,7 @@
         <Widget type="ScrollView" skin="MW_MapView" position="0 0 284 264" align="Stretch" name="GlobalMap">
             <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" align="Stretch" name="GlobalMapImage">
                 <!-- Fast travel route overlay (routes extracted from global map). Placed under fog overlay so unexplored areas stay hidden. -->
-                <Widget type="ImageBox" skin="ImageBox" position_real="0 0.02 1 0.88" align="Stretch" name="FastTravelRoutes">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 0.86" align="HStretch Top" name="FastTravelRoutes">
                     <Property key="ImageTexture" value="textures\fast_travel_overlay.png"/>
                     <Property key="NeedMouse" value="false"/>
                     <Property key="NeedKey" value="false"/>
