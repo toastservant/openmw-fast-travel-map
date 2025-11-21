@@ -25,3 +25,4 @@ After changing values, reload a save or use `reload lua scripts` in the console 
 - `scripts/fast_travel_overlay/player.lua` – builds the overlay layers and Travel button, saves toggle state.
 - `scripts/fast_travel_overlay/config.lua` – alignment and style settings.
 - `textures/fast_travel_overlay.png` – replace with your fast-travel network image.
+- `mygui/openmw_map_window.layout` – overrides the map layout to draw the overlay inside the map so it zooms/pans with it. The `FastTravelRoutes` widget uses `position_real="0 0 1 0.9"` (90% height). If the overlay seems vertically stretched/squashed, tweak the 3rd/4th numbers (width/height) and, if needed, add a small y offset in the 2nd number (e.g., `0.02`) to align top/bottom.
